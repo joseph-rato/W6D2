@@ -1,0 +1,31 @@
+.ttt {
+  width: 250px;
+  margin: auto;
+}
+
+.ttt ul {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.ttt li {
+  background-color: grey;
+  list-style-type: none;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border: 1px solid black;
+  
+}
+
+.ttt li:hover {
+  background-color: yellow;
+}
+
+#move {
+  background-color: white;
+  font-size: 60px;
+  vertical-align: middle;
+  text-align: center;
+}
