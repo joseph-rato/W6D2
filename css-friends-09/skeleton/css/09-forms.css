@@ -1,0 +1,28 @@
+/* PHASE 9: Forms */
+
+.form-post  {
+  display: flex;
+  /* width: 500px; */
+}
+
+.form-thumb {
+  flex: inline;
+  width: 100px;
+}
+
+.form-thumb img {
+  width: 100px;
+}
+
+.form-fieldset {
+  
+  flex: inline;
+  width: 500px;
+  margin: 0 15px;
+  background-color: grey;
+}
+
+textarea[name=post] {
+  resize: none;
+  
+}
